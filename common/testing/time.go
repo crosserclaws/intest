@@ -3,7 +3,7 @@ package testing
 import (
 	"time"
 
-	ojson "github.com/Cepave/open-falcon-backend/common/json"
+	ojson "github.com/crosserclaws/intest/common/json"
 	. "github.com/onsi/gomega"
 	"gopkg.in/check.v1"
 )

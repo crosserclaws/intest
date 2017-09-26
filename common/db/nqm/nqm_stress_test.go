@@ -2,15 +2,15 @@ package nqm
 
 import (
 	"fmt"
-	"github.com/Cepave/open-falcon-backend/common/model"
-	nqmModel "github.com/Cepave/open-falcon-backend/common/model/nqm"
+	"github.com/crosserclaws/intest/common/model"
+	nqmModel "github.com/crosserclaws/intest/common/model/nqm"
 	"github.com/icrowley/fake"
 	"sync"
 	"time"
 
-	dbTest "github.com/Cepave/open-falcon-backend/common/testing/db"
+	dbTest "github.com/crosserclaws/intest/common/testing/db"
 
-	//ocheck "github.com/Cepave/open-falcon-backend/common/testing/check"
+	//ocheck "github.com/crosserclaws/intest/common/testing/check"
 	. "gopkg.in/check.v1"
 )
 

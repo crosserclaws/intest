@@ -1,7 +1,7 @@
 package vipercfg
 
 import (
-	owlPflag "github.com/Cepave/open-falcon-backend/common/pflag"
+	owlPflag "github.com/crosserclaws/intest/common/pflag"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"

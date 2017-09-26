@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/Cepave/open-falcon-backend/common/types"
+	"github.com/crosserclaws/intest/common/types"
 )
 
 type Bytes16 types.Bytes16

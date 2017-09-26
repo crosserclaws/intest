@@ -1,8 +1,8 @@
 package db
 
 import (
-	commonDb "github.com/Cepave/open-falcon-backend/common/db"
-	f "github.com/Cepave/open-falcon-backend/common/db/facade"
+	commonDb "github.com/crosserclaws/intest/common/db"
+	f "github.com/crosserclaws/intest/common/db/facade"
 	check "gopkg.in/check.v1"
 )
 

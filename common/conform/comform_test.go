@@ -3,8 +3,8 @@ package conform
 import (
 	"reflect"
 
-	ocheck "github.com/Cepave/open-falcon-backend/common/testing/check"
-	"github.com/Cepave/open-falcon-backend/common/utils"
+	ocheck "github.com/crosserclaws/intest/common/testing/check"
+	"github.com/crosserclaws/intest/common/utils"
 	. "gopkg.in/check.v1"
 )
 

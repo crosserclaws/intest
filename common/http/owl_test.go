@@ -4,11 +4,11 @@ import (
 	"net/http"
 	"testing"
 
-	mock "github.com/Cepave/open-falcon-backend/common/testing/http/gock"
+	mock "github.com/crosserclaws/intest/common/testing/http/gock"
 
-	oHttp "github.com/Cepave/open-falcon-backend/common/http"
-	"github.com/Cepave/open-falcon-backend/common/http/client"
-	tg "github.com/Cepave/open-falcon-backend/common/testing/ginkgo"
+	oHttp "github.com/crosserclaws/intest/common/http"
+	"github.com/crosserclaws/intest/common/http/client"
+	tg "github.com/crosserclaws/intest/common/testing/ginkgo"
 
 	. "github.com/onsi/ginkgo"
 	//. "github.com/onsi/ginkgo/extensions/table"

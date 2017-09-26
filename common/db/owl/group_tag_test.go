@@ -1,14 +1,14 @@
 package owl
 
 import (
-	"github.com/Cepave/open-falcon-backend/common/model"
-	owlModel "github.com/Cepave/open-falcon-backend/common/model/owl"
-	rt "github.com/Cepave/open-falcon-backend/common/reflect/types"
+	"github.com/crosserclaws/intest/common/model"
+	owlModel "github.com/crosserclaws/intest/common/model/owl"
+	rt "github.com/crosserclaws/intest/common/reflect/types"
 
-	"github.com/Cepave/open-falcon-backend/common/utils"
+	"github.com/crosserclaws/intest/common/utils"
 
-	ocheck "github.com/Cepave/open-falcon-backend/common/testing/check"
-	dbTest "github.com/Cepave/open-falcon-backend/common/testing/db"
+	ocheck "github.com/crosserclaws/intest/common/testing/check"
+	dbTest "github.com/crosserclaws/intest/common/testing/db"
 	. "gopkg.in/check.v1"
 )
 

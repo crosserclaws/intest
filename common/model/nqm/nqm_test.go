@@ -1,7 +1,7 @@
 package nqm
 
 import (
-	"github.com/Cepave/open-falcon-backend/common/model"
+	"github.com/crosserclaws/intest/common/model"
 	. "gopkg.in/check.v1"
 )
 

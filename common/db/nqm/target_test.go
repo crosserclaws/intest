@@ -3,12 +3,12 @@ package nqm
 import (
 	"reflect"
 
-	owlDb "github.com/Cepave/open-falcon-backend/common/db/owl"
-	commonModel "github.com/Cepave/open-falcon-backend/common/model"
-	nqmModel "github.com/Cepave/open-falcon-backend/common/model/nqm"
-	ocheck "github.com/Cepave/open-falcon-backend/common/testing/check"
-	dbTest "github.com/Cepave/open-falcon-backend/common/testing/db"
-	"github.com/Cepave/open-falcon-backend/common/utils"
+	owlDb "github.com/crosserclaws/intest/common/db/owl"
+	commonModel "github.com/crosserclaws/intest/common/model"
+	nqmModel "github.com/crosserclaws/intest/common/model/nqm"
+	ocheck "github.com/crosserclaws/intest/common/testing/check"
+	dbTest "github.com/crosserclaws/intest/common/testing/db"
+	"github.com/crosserclaws/intest/common/utils"
 
 	. "gopkg.in/check.v1"
 )

@@ -1,11 +1,11 @@
 package nqm
 
 import (
-	cache "github.com/Cepave/open-falcon-backend/common/ccache"
-	nqmDb "github.com/Cepave/open-falcon-backend/common/db/nqm"
-	nqmModel "github.com/Cepave/open-falcon-backend/common/model/nqm"
-	ocheck "github.com/Cepave/open-falcon-backend/common/testing/check"
-	dbTest "github.com/Cepave/open-falcon-backend/common/testing/db"
+	cache "github.com/crosserclaws/intest/common/ccache"
+	nqmDb "github.com/crosserclaws/intest/common/db/nqm"
+	nqmModel "github.com/crosserclaws/intest/common/model/nqm"
+	ocheck "github.com/crosserclaws/intest/common/testing/check"
+	dbTest "github.com/crosserclaws/intest/common/testing/db"
 	. "gopkg.in/check.v1"
 	"time"
 )

@@ -16,7 +16,7 @@ import (
 	gt "gopkg.in/h2non/gentleman.v2"
 	"gopkg.in/h2non/gentleman.v2/plugin"
 
-	"github.com/Cepave/open-falcon-backend/common/http/client"
+	"github.com/crosserclaws/intest/common/http/client"
 )
 
 // General configuration to MySqlApi

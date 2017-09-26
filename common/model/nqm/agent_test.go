@@ -3,12 +3,12 @@ package nqm
 import (
 	"reflect"
 
-	"github.com/Cepave/open-falcon-backend/common/conform"
+	"github.com/crosserclaws/intest/common/conform"
 
-	otest "github.com/Cepave/open-falcon-backend/common/testing"
-	ocheck "github.com/Cepave/open-falcon-backend/common/testing/check"
-	testV "github.com/Cepave/open-falcon-backend/common/testing/validator"
-	"github.com/Cepave/open-falcon-backend/common/utils"
+	otest "github.com/crosserclaws/intest/common/testing"
+	ocheck "github.com/crosserclaws/intest/common/testing/check"
+	testV "github.com/crosserclaws/intest/common/testing/validator"
+	"github.com/crosserclaws/intest/common/utils"
 	. "gopkg.in/check.v1"
 )
 

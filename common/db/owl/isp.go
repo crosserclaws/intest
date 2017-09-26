@@ -1,8 +1,8 @@
 package owl
 
 import (
-	gormExt "github.com/Cepave/open-falcon-backend/common/gorm"
-	owlModel "github.com/Cepave/open-falcon-backend/common/model/owl"
+	gormExt "github.com/crosserclaws/intest/common/gorm"
+	owlModel "github.com/crosserclaws/intest/common/model/owl"
 )
 
 func GetISPsByName(name string) []*owlModel.Isp {

@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	or "github.com/Cepave/open-falcon-backend/common/runtime"
-	"github.com/Cepave/open-falcon-backend/common/utils"
+	or "github.com/crosserclaws/intest/common/runtime"
+	"github.com/crosserclaws/intest/common/utils"
 )
 
 type TxFinale byte

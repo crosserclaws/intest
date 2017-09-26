@@ -8,11 +8,11 @@ import (
 	"github.com/satori/go.uuid"
 	gt "gopkg.in/h2non/gentleman.v2"
 
-	"github.com/Cepave/open-falcon-backend/common/db"
-	oHttp "github.com/Cepave/open-falcon-backend/common/http"
-	"github.com/Cepave/open-falcon-backend/common/http/client"
-	ojson "github.com/Cepave/open-falcon-backend/common/json"
-	model "github.com/Cepave/open-falcon-backend/common/model/owl"
+	"github.com/crosserclaws/intest/common/db"
+	oHttp "github.com/crosserclaws/intest/common/http"
+	"github.com/crosserclaws/intest/common/http/client"
+	ojson "github.com/crosserclaws/intest/common/json"
+	model "github.com/crosserclaws/intest/common/model/owl"
 )
 
 type QueryServiceConfig struct {

@@ -11,7 +11,7 @@ package db
 import (
 	"flag"
 
-	commonDb "github.com/Cepave/open-falcon-backend/common/db"
+	commonDb "github.com/crosserclaws/intest/common/db"
 )
 
 var dsnMysql = flag.String("dsn_mysql", "", "DSN of MySql")

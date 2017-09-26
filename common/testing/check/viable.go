@@ -1,7 +1,7 @@
 package check
 
 import (
-	"github.com/Cepave/open-falcon-backend/common/utils"
+	"github.com/crosserclaws/intest/common/utils"
 	"gopkg.in/check.v1"
 	"reflect"
 )

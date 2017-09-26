@@ -1,11 +1,11 @@
 package owl
 
 import (
-	"github.com/Cepave/open-falcon-backend/common/model"
-	owlModel "github.com/Cepave/open-falcon-backend/common/model/owl"
-	rt "github.com/Cepave/open-falcon-backend/common/reflect/types"
+	"github.com/crosserclaws/intest/common/model"
+	owlModel "github.com/crosserclaws/intest/common/model/owl"
+	rt "github.com/crosserclaws/intest/common/reflect/types"
 
-	"github.com/Cepave/open-falcon-backend/common/utils"
+	"github.com/crosserclaws/intest/common/utils"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"

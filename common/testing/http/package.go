@@ -1,7 +1,7 @@
 package http
 
 import (
-	"github.com/Cepave/open-falcon-backend/common/logruslog"
+	"github.com/crosserclaws/intest/common/logruslog"
 )
 
 var logger = logruslog.NewDefaultLogger("INFO")

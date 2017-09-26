@@ -1,7 +1,7 @@
 package ginkgo
 
 import (
-	ohttp "github.com/Cepave/open-falcon-backend/common/testing/http"
+	ohttp "github.com/crosserclaws/intest/common/testing/http"
 	"io"
 	"net/http"
 	"strings"

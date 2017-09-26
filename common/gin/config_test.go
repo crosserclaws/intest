@@ -10,7 +10,7 @@ import (
 	sjson "github.com/bitly/go-simplejson"
 	"gopkg.in/go-playground/validator.v9"
 
-	ocheck "github.com/Cepave/open-falcon-backend/common/testing/check"
+	ocheck "github.com/crosserclaws/intest/common/testing/check"
 	. "gopkg.in/check.v1"
 )
 

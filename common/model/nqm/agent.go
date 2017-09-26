@@ -5,10 +5,10 @@ import (
 	"net"
 	"time"
 
-	owlGin "github.com/Cepave/open-falcon-backend/common/gin"
-	owlJson "github.com/Cepave/open-falcon-backend/common/json"
-	owlModel "github.com/Cepave/open-falcon-backend/common/model/owl"
-	"github.com/Cepave/open-falcon-backend/common/utils"
+	owlGin "github.com/crosserclaws/intest/common/gin"
+	owlJson "github.com/crosserclaws/intest/common/json"
+	owlModel "github.com/crosserclaws/intest/common/model/owl"
+	"github.com/crosserclaws/intest/common/utils"
 	json "github.com/bitly/go-simplejson"
 	"github.com/gin-gonic/gin"
 )

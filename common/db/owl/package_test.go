@@ -5,7 +5,7 @@ import (
 	ch "gopkg.in/check.v1"
 	"testing"
 
-	dbTest "github.com/Cepave/open-falcon-backend/common/testing/db"
+	dbTest "github.com/crosserclaws/intest/common/testing/db"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

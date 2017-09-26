@@ -2,7 +2,7 @@ package gin
 
 import (
 	"fmt"
-	"github.com/Cepave/open-falcon-backend/common/conform"
+	"github.com/crosserclaws/intest/common/conform"
 	"gopkg.in/go-playground/validator.v9"
 )
 

@@ -3,9 +3,9 @@ package types
 import (
 	"fmt"
 
-	ocheck "github.com/Cepave/open-falcon-backend/common/testing/check"
+	ocheck "github.com/crosserclaws/intest/common/testing/check"
 
-	. "github.com/Cepave/open-falcon-backend/common/reflect/types"
+	. "github.com/crosserclaws/intest/common/reflect/types"
 	. "gopkg.in/check.v1"
 )
 

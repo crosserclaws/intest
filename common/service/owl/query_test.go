@@ -6,10 +6,10 @@ import (
 
 	"github.com/satori/go.uuid"
 
-	"github.com/Cepave/open-falcon-backend/common/db"
-	model "github.com/Cepave/open-falcon-backend/common/model/owl"
-	mock "github.com/Cepave/open-falcon-backend/common/testing/http/gock"
-	"github.com/Cepave/open-falcon-backend/common/types"
+	"github.com/crosserclaws/intest/common/db"
+	model "github.com/crosserclaws/intest/common/model/owl"
+	mock "github.com/crosserclaws/intest/common/testing/http/gock"
+	"github.com/crosserclaws/intest/common/types"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

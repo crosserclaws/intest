@@ -19,7 +19,7 @@ func ExampleGetCallerInfo() {
 	fmt.Printf("%s", callerInfo)
 
 	// Output:
-	// github.com/Cepave/open-falcon-backend/common/runtime/stack_test.go:18
+	// github.com/crosserclaws/intest/common/runtime/stack_test.go:18
 }
 
 func ExampleGetCallerInfoWithDepth() {
@@ -35,7 +35,7 @@ func ExampleGetCallerInfoWithDepth() {
 	fmt.Printf("%s", callerInfo)
 
 	// Output:
-	// github.com/Cepave/open-falcon-backend/common/runtime/stack_test.go:35
+	// github.com/crosserclaws/intest/common/runtime/stack_test.go:35
 }
 
 // Tests the information of caller

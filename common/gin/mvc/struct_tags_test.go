@@ -10,10 +10,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/Cepave/open-falcon-backend/common/model"
-	rt "github.com/Cepave/open-falcon-backend/common/reflect/types"
-	ot "github.com/Cepave/open-falcon-backend/common/types"
-	"github.com/Cepave/open-falcon-backend/common/utils"
+	"github.com/crosserclaws/intest/common/model"
+	rt "github.com/crosserclaws/intest/common/reflect/types"
+	ot "github.com/crosserclaws/intest/common/types"
+	"github.com/crosserclaws/intest/common/utils"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"

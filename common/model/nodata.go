@@ -3,7 +3,7 @@ package model
 import (
 	"fmt"
 
-	"github.com/Cepave/open-falcon-backend/common/utils"
+	"github.com/crosserclaws/intest/common/utils"
 	ttime "github.com/toolkits/time"
 )
 

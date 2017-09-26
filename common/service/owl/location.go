@@ -2,9 +2,9 @@ package owl
 
 import (
 	"fmt"
-	cache "github.com/Cepave/open-falcon-backend/common/ccache"
-	owlDb "github.com/Cepave/open-falcon-backend/common/db/owl"
-	owlModel "github.com/Cepave/open-falcon-backend/common/model/owl"
+	cache "github.com/crosserclaws/intest/common/ccache"
+	owlDb "github.com/crosserclaws/intest/common/db/owl"
+	owlModel "github.com/crosserclaws/intest/common/model/owl"
 )
 
 type ProvinceService struct {

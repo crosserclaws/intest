@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Cepave/open-falcon-backend/common/model"
+	"github.com/crosserclaws/intest/common/model"
 	"github.com/toolkits/pool"
 )
 

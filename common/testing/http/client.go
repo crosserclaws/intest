@@ -21,7 +21,7 @@ import (
 	checker "gopkg.in/check.v1"
 	gt "gopkg.in/h2non/gentleman.v2"
 
-	"github.com/Cepave/open-falcon-backend/common/http/client"
+	"github.com/crosserclaws/intest/common/http/client"
 )
 
 // Initialize a client config by flag

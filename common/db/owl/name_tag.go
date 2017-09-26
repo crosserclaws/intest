@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"github.com/jmoiron/sqlx"
 
-	"github.com/Cepave/open-falcon-backend/common/db"
-	sqlxExt "github.com/Cepave/open-falcon-backend/common/db/sqlx"
-	"github.com/Cepave/open-falcon-backend/common/model"
-	owlModel "github.com/Cepave/open-falcon-backend/common/model/owl"
-	t "github.com/Cepave/open-falcon-backend/common/textbuilder"
-	tsql "github.com/Cepave/open-falcon-backend/common/textbuilder/sql"
-	"github.com/Cepave/open-falcon-backend/common/utils"
+	"github.com/crosserclaws/intest/common/db"
+	sqlxExt "github.com/crosserclaws/intest/common/db/sqlx"
+	"github.com/crosserclaws/intest/common/model"
+	owlModel "github.com/crosserclaws/intest/common/model/owl"
+	t "github.com/crosserclaws/intest/common/textbuilder"
+	tsql "github.com/crosserclaws/intest/common/textbuilder/sql"
+	"github.com/crosserclaws/intest/common/utils"
 )
 
 var orderByDialectForNameTag = model.NewSqlOrderByDialect(
