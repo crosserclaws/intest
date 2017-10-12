@@ -9,22 +9,6 @@ type TestArraySuite struct{}
 
 var _ = Suite(&TestArraySuite{})
 
-// Tests the filtering for array
-func (suite *TestArraySuite) TestFilterWith(c *C) {
-	sampleData := []int{2, 4, 6, 9}
-
-	testedResult := MakeAbstractArray(sampleData).
-		FilterWith(func(v interface{}) bool {
-			if v.(int) > 5 {
-				return false
-			}
-
-			return true
-		})
-
-	c.Assert(testedResult.GetArray(), DeepEquals, []int{2, 4})
-}
-
 // Tests the mapping for array
 func (suite *TestArraySuite) TestMapperTo(c *C) {
 	sampleData := []int{1, 3, 5}
