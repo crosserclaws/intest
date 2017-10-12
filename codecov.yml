@@ -1,0 +1,14 @@
+coverage:
+  status:
+    project:
+      default:
+        enabled: yes
+        target: auto
+        threshold: 0.1%
+        if_not_found: success
+
+    patch:
+      default:
+        enabled: yes
+        threshold: 0.1%
+        if_not_found: success
